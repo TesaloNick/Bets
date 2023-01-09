@@ -1,0 +1,32 @@
+body {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/images/background.webp) center/cover no-repeat;
+  color: #fff;
+
+  a {
+    color: #fff;
+  }
+}
+
+.app {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media (max-width: 1230px) {
+    padding: 10px 15px;
+    max-width: 100%;
+  }
+}
+
+.header {
+  img {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 0;
+    margin: auto;
+  }
+}
