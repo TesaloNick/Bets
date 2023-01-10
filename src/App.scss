@@ -19,6 +19,10 @@ body {
     padding: 10px 15px;
     max-width: 100%;
   }
+
+  @media (max-width: 767px) {
+    gap: 10px;
+  }
 }
 
 .header {

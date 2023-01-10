@@ -1,5 +1,23 @@
-.main {
+.home-page {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  padding: 10px;
+
+  @media (max-width: 767px) {
+    gap: 10px;
+  }
+
+  &__notification {
+    background-color: gold;
+    padding: 20px;
+    font-size: 25px;
+    color: black;
+    border-radius: 5px;
+
+    @media (max-width: 767px) {
+      font-size: 20px;
+      padding: 10px;
+    }
+  }
 }
